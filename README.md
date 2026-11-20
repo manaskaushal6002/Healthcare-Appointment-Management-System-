@@ -11,8 +11,6 @@
 
 ## 1. Project Overview & Motivation
 
-In enterprise healthcare organizations such as **Optum** and large hospital networks, scheduling systems must guarantee **zero double-booking**, **strict role-based access control (RBAC)**, **patient privacy**, and **data integrity**.
-
 This project was built from the ground up without heavy abstractions (such as Spring Boot or Hibernate) to showcase core computer science and software engineering competencies:
 - **Object-Oriented Design (OOP)**: Deep use of abstraction, inheritance, polymorphism, and encapsulation.
 - **Relational Modeling & Normalization**: 3NF database schema with foreign key cascades, soft-deletes, and indexing.
@@ -237,16 +235,3 @@ src/main/java/com/healthcare/test/SystemIntegrationTest.java
 8. `AppointmentService`: Unauthorized cancellation attempt rejection.
 
 ---
-
-## 9. Future Enhancements
-
-- [ ] **Email & SMS Reminders**: Integration with Twilio or JavaMail for automated appointment notifications 24 hours prior to consultation.
-- [ ] **Payment Gateway Integration**: Simulated payment processing (Stripe / Razorpay) for paying consultation fees prior to booking confirmation.
-- [ ] **Telehealth Video Room**: WebRTC link generation attached to confirmed appointments.
-- [ ] **Prescription & Medical Records Upload**: Capability for doctors to attach digital prescriptions and PDF lab reports.
-
----
-
-## 10. License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
