@@ -1,0 +1,28 @@
+# Compiled class files
+target/
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
